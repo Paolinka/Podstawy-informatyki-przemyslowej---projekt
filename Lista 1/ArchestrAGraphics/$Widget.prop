@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 1,
+  "VisualElementID": 804,
+  "GObjectId": 804,
+  "HelpId": "",
+  "VisualElementName": "$Widget",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 0,
+  "VisualElementType": "Widget",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": "",
+  "ExternalName": ""
+}
