@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 11,
+  "VisualElementID": 991,
+  "GObjectId": 991,
+  "HelpId": "",
+  "VisualElementName": "ISA_Compressor",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190434726430,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

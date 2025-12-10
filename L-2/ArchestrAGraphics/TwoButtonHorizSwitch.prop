@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 11,
+  "VisualElementID": 1284,
+  "GObjectId": 1284,
+  "HelpId": "",
+  "VisualElementName": "TwoButtonHorizSwitch",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190737068305,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

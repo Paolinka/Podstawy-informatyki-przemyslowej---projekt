@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 9,
+  "VisualElementID": 1242,
+  "GObjectId": 1242,
+  "HelpId": "",
+  "VisualElementName": "SSTank4Supports",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190700543492,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

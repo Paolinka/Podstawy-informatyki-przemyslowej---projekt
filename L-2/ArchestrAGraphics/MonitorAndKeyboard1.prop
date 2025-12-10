@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 6,
+  "VisualElementID": 1328,
+  "GObjectId": 1328,
+  "HelpId": "",
+  "VisualElementName": "MonitorAndKeyboard1",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190781235421,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

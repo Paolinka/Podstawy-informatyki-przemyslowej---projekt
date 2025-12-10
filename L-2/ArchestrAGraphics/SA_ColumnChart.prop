@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1449,
+  "GObjectId": 1449,
+  "HelpId": "",
+  "VisualElementName": "SA_ColumnChart",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190914991268,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

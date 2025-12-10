@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 266,
+  "VisualElementID": 1193,
+  "GObjectId": 1193,
+  "HelpId": "",
+  "VisualElementName": "OPCClientDisplay",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190657896505,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

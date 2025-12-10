@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1456,
+  "GObjectId": 1456,
+  "HelpId": "",
+  "VisualElementName": "SA_Trend_MultiPen",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190920860103,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

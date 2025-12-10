@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 8,
+  "VisualElementID": 992,
+  "GObjectId": 992,
+  "HelpId": "",
+  "VisualElementName": "ISA_Turbine",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190435513422,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

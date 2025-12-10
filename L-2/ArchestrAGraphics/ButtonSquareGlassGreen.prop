@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 6,
+  "VisualElementID": 905,
+  "GObjectId": 905,
+  "HelpId": "",
+  "VisualElementName": "ButtonSquareGlassGreen",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190356686485,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

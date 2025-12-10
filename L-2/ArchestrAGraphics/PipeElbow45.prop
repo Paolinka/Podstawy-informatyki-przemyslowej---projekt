@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 34,
+  "VisualElementID": 1201,
+  "GObjectId": 1201,
+  "HelpId": "",
+  "VisualElementName": "PipeElbow45",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190665152809,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

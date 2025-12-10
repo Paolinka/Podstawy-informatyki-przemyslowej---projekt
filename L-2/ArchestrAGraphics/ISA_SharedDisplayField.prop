@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 11,
+  "VisualElementID": 1061,
+  "GObjectId": 1061,
+  "HelpId": "",
+  "VisualElementName": "ISA_SharedDisplayField",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190511734337,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

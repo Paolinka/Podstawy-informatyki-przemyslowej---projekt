@@ -1,0 +1,24 @@
+{
+  "GraphicVersion": 45,
+  "VisualElementID": 1232,
+  "GObjectId": 1232,
+  "HelpId": "",
+  "VisualElementName": "SliderHorizBlack",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190692134405,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [
+    1
+  ],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

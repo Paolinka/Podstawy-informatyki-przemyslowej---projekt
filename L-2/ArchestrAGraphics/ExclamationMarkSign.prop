@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 5,
+  "VisualElementID": 1304,
+  "GObjectId": 1304,
+  "HelpId": "",
+  "VisualElementName": "ExclamationMarkSign",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190753573122,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

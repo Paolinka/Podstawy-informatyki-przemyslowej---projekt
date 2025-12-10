@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 10,
+  "VisualElementID": 884,
+  "GObjectId": 884,
+  "HelpId": "",
+  "VisualElementName": "ButtonPushPullIllumRed",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190328642496,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

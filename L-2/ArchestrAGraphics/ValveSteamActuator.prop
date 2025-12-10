@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 42,
+  "VisualElementID": 1296,
+  "GObjectId": 1296,
+  "HelpId": "",
+  "VisualElementName": "ValveSteamActuator",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190746907525,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

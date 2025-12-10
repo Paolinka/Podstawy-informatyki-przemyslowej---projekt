@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 7,
+  "VisualElementID": 1024,
+  "GObjectId": 1024,
+  "HelpId": "",
+  "VisualElementName": "ISA_ColumnDistillationWtrays",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190463694068,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

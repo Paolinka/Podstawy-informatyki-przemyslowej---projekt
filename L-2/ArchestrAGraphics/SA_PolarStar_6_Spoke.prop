@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1395,
+  "GObjectId": 1395,
+  "HelpId": "",
+  "VisualElementName": "SA_PolarStar_6_Spoke",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190864252566,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

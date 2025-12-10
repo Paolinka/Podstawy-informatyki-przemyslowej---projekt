@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 5,
+  "VisualElementID": 1165,
+  "GObjectId": 1165,
+  "HelpId": "",
+  "VisualElementName": "LightMedBezelLabelOrange",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190634484668,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

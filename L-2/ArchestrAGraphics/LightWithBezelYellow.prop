@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 24,
+  "VisualElementID": 1188,
+  "GObjectId": 1188,
+  "HelpId": "",
+  "VisualElementName": "LightWithBezelYellow",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190653556800,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

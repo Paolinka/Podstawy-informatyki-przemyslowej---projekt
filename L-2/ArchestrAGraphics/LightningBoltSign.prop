@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 3,
+  "VisualElementID": 1306,
+  "GObjectId": 1306,
+  "HelpId": "",
+  "VisualElementName": "LightningBoltSign",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190755161679,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

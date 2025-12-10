@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 7,
+  "VisualElementID": 1133,
+  "GObjectId": 1133,
+  "HelpId": "",
+  "VisualElementName": "ISA_CommonHousing",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190595329937,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

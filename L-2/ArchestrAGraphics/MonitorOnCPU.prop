@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 5,
+  "VisualElementID": 1349,
+  "GObjectId": 1349,
+  "HelpId": "",
+  "VisualElementName": "MonitorOnCPU",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190809695018,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

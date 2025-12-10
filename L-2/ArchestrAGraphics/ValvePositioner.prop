@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 13,
+  "VisualElementID": 1292,
+  "GObjectId": 1292,
+  "HelpId": "",
+  "VisualElementName": "ValvePositioner",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190743575676,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

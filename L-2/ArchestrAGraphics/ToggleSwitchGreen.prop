@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 10,
+  "VisualElementID": 1281,
+  "GObjectId": 1281,
+  "HelpId": "",
+  "VisualElementName": "ToggleSwitchGreen",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190734660422,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

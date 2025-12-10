@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 4,
+  "VisualElementID": 1199,
+  "GObjectId": 1199,
+  "HelpId": "",
+  "VisualElementName": "PanelWarning",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190663569491,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

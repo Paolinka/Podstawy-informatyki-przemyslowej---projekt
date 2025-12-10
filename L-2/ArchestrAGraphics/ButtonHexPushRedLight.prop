@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 11,
+  "VisualElementID": 872,
+  "GObjectId": 872,
+  "HelpId": "",
+  "VisualElementName": "ButtonHexPushRedLight",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190319388998,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 5,
+  "VisualElementID": 1132,
+  "GObjectId": 1132,
+  "HelpId": "",
+  "VisualElementName": "ISA_FusibleLink",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190593838037,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

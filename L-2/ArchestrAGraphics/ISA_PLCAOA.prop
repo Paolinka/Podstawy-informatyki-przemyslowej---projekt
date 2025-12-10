@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 10,
+  "VisualElementID": 1058,
+  "GObjectId": 1058,
+  "HelpId": "",
+  "VisualElementName": "ISA_PLCAOA",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190508047312,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

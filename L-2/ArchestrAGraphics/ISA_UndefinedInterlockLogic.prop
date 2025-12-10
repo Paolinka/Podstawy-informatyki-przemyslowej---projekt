@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 8,
+  "VisualElementID": 1100,
+  "GObjectId": 1100,
+  "HelpId": "",
+  "VisualElementName": "ISA_UndefinedInterlockLogic",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190556804281,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

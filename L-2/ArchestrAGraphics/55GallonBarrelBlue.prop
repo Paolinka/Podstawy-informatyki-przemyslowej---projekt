@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 6,
+  "VisualElementID": 1335,
+  "GObjectId": 1335,
+  "HelpId": "",
+  "VisualElementName": "55GallonBarrelBlue",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190790837198,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}
