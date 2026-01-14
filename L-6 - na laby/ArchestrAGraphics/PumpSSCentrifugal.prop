@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 49,
+  "VisualElementID": 1225,
+  "GObjectId": 1225,
+  "HelpId": "",
+  "VisualElementName": "PumpSSCentrifugal",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190686312893,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

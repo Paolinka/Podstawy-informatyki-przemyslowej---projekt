@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 16,
+  "VisualElementID": 1038,
+  "GObjectId": 1038,
+  "HelpId": "",
+  "VisualElementName": "ISA_TimeL5",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190481143466,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 6,
+  "VisualElementID": 1364,
+  "GObjectId": 1364,
+  "HelpId": "",
+  "VisualElementName": "SphericalFlask2",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190829217992,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

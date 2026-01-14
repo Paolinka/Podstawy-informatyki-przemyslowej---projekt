@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 9,
+  "VisualElementID": 1054,
+  "GObjectId": 1054,
+  "HelpId": "",
+  "VisualElementName": "ISA_DiscreteInstrumentPOA",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190503012040,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

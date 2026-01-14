@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 9,
+  "VisualElementID": 1004,
+  "GObjectId": 1004,
+  "HelpId": "",
+  "VisualElementName": "ISA_MixerHelical",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190445563137,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

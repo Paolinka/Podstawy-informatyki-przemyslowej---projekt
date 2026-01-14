@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 8,
+  "VisualElementID": 1279,
+  "GObjectId": 1279,
+  "HelpId": "",
+  "VisualElementName": "ToggleSwitch",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190732619288,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

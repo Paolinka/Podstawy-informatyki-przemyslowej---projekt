@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 4,
+  "VisualElementID": 1099,
+  "GObjectId": 1099,
+  "HelpId": "",
+  "VisualElementName": "ISA_Generator2",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190555554025,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

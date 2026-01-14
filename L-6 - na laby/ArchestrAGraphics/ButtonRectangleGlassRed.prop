@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 8,
+  "VisualElementID": 890,
+  "GObjectId": 890,
+  "HelpId": "",
+  "VisualElementName": "ButtonRectangleGlassRed",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190343080730,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

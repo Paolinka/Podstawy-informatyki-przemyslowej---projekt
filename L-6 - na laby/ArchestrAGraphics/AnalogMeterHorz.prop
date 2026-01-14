@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 25,
+  "VisualElementID": 822,
+  "GObjectId": 822,
+  "HelpId": "",
+  "VisualElementName": "AnalogMeterHorz",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190276499836,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

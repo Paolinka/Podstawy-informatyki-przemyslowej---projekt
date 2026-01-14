@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../resources/libs/bootstrap_3_4_1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./build/build.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title></title>
+    <style>
+
+        .sideBarClass {
+            z-index: 1;
+            width: 0px;
+            transition: 0.5s;
+            position: fixed;
+            overflow: hidden;
+        }
+
+        .clickClass {
+            padding: 0;
+            position: fixed;
+            transition: margin-left .5s;
+        }
+
+        .collapsedBotton {
+            transition: transform .5s;
+        }
+
+        .bottomContent {
+            bottom: 3px;
+            height: 20px;
+            font-size: 20px;
+            line-height: 20px;
+            position: absolute;
+        }
+
+        .bottomContainer {
+            height: 25px;
+            bottom: 3px;
+        }
+
+        .contentBackground {
+            background: rgba(0,0,0,0.2);
+        }
+
+        .collpasedButtonSvg {
+            background: rgba(0,0,0,0.2);
+            stroke: rgba(0,0,0,0.5);
+            fill: rgba(0,0,0,0.5);
+        }
+
+            .collpasedButtonSvg:hover {
+                background-color: rgba(0,0,0,0.6);
+                stroke: rgba(255,255,255,0.7);
+                fill: rgba(255,255,255,0.7);
+            }
+    </style>
+    <script>
+        function showHideContent() {
+            var content = document.getElementById("content");
+            var collapsedElement = document.getElementById("collpasedButton");
+
+            if (parseInt(content.style.width) > 0) {
+                window.contentNotificationSize = content.style.width;
+                content.style.width = "0";
+                document.getElementById("collapsed").style.marginLeft = "0";
+                collapsedElement.style.transform = "rotate(270deg)";
+                collapsedElement.style.transformOrigin = "50% 50%";
+            }
+            else {
+                var className = content.className;
+                content.className = "";
+                content.style.width = "100%";
+                var tipElement = document.getElementById('tips');
+                window.contentNotificationSize = tipElement.getBoundingClientRect().width;
+                window.contentNotificationSize += parseFloat(tipElement.style.marginLeft) + parseFloat(tipElement.style.marginRight);
+                content.className = className;
+                content.style.width = window.contentNotificationSize + "px";
+                document.getElementById("collapsed").style.marginLeft = window.contentNotificationSize + "px";
+                collapsedElement.style.transform = "rotate(90deg)";
+                collapsedElement.style.transformOrigin = "50% 50%";
+            }
+        }
+
+        window.addEventListener("load", function () { showHideContent(); });
+    </script>
+  <script>
+    if ( 'serviceWorker' in navigator && window.location.href.toLowerCase().indexOf('file://') < 0) {
+      window.addEventListener( 'load', function () {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
+</head>
+<body>
+    <div id="messagebox" style="display:none;  position: absolute; top:50%;left: 0px; margin-top: -10px;text-align :center; "></div>
+    <iframe id='myFrame' frameBorder='0'></iframe>
+
+    <div id="collapsed" class="clickClass bottomContainer">
+        <div class="collapsedBotton bottomContent" onclick="showHideContent()">
+            <svg id="collpasedButton" width="25" height="25" viewBox="0 0 24 24" style="position:absolute;bottom:-3px;" class="bottomContainer collpasedButtonSvg">
+                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
+            </svg>
+        </div>
+    </div>
+    <div id="content" class="sideBarClass bottomContainer contentBackground">
+        <div id="tips" class="bottomContent" style="margin:0 20px 0 20px;">If the page is displaying incorrectly, please click <a id="tips_link" href="javascript:void(0)" target="_blank">here</a>. </div>
+    </div>
+
+    <!--The bellow lines cannot be removed-->
+    <script src="../resources/libs/jquery_3_5_1/dist/jquery.min.js"></script>
+    <script src="../resources/libs/bootstrap_3_4_1/dist/js/bootstrap.min.js"></script>
+    <script src="../resources/libs/eventemitter_5_1_0/eventEmitter.js"></script>
+    <script src="../resources/apis/proxy.js" cwidget="Web_Browser" autoResize="disable"></script>
+    <script src="../resources/apis/MASvrHelper.js"></script>
+    <script src="./build/build.min.js"></script>
+</body>
+</html>

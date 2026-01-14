@@ -1,0 +1,30 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1380,
+  "GObjectId": 1380,
+  "HelpId": "",
+  "VisualElementName": "SA_Agitator_Settler",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190850587786,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

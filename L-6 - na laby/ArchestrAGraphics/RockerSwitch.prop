@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 34,
+  "VisualElementID": 1227,
+  "GObjectId": 1227,
+  "HelpId": "",
+  "VisualElementName": "RockerSwitch",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190687946643,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

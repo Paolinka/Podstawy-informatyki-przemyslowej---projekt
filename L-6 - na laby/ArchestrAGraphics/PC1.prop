@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 11,
+  "VisualElementID": 1312,
+  "GObjectId": 1312,
+  "HelpId": "",
+  "VisualElementName": "PC1",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190760076094,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

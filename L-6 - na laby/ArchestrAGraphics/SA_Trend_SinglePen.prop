@@ -1,0 +1,24 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1458,
+  "GObjectId": 1458,
+  "HelpId": "",
+  "VisualElementName": "SA_Trend_SinglePen",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190922447801,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [
+    1
+  ],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

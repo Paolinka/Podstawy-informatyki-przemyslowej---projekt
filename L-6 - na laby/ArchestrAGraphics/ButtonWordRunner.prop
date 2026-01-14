@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 16,
+  "VisualElementID": 917,
+  "GObjectId": 917,
+  "HelpId": "",
+  "VisualElementName": "ButtonWordRunner",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190367607650,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

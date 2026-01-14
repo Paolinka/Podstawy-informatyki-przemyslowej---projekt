@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 14,
+  "VisualElementID": 1062,
+  "GObjectId": 1062,
+  "HelpId": "",
+  "VisualElementName": "ISA_SharedDisplayAOA",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190512699853,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

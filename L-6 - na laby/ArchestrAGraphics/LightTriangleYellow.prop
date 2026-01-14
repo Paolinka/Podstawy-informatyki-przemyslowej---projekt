@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 10,
+  "VisualElementID": 1183,
+  "GObjectId": 1183,
+  "HelpId": "",
+  "VisualElementName": "LightTriangleYellow",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190649541230,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

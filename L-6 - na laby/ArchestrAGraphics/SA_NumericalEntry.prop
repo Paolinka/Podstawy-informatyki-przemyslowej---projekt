@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1427,
+  "GObjectId": 1427,
+  "HelpId": "",
+  "VisualElementName": "SA_NumericalEntry",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190895467720,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

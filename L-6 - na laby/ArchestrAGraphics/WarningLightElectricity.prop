@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 8,
+  "VisualElementID": 1299,
+  "GObjectId": 1299,
+  "HelpId": "",
+  "VisualElementName": "WarningLightElectricity",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190749477513,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

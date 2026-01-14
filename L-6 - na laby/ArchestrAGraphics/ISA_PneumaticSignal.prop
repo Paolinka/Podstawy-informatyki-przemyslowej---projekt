@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 7,
+  "VisualElementID": 1044,
+  "GObjectId": 1044,
+  "HelpId": "",
+  "VisualElementName": "ISA_PneumaticSignal",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190488923216,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

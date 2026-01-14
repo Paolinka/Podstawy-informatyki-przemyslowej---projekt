@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 8,
+  "VisualElementID": 1027,
+  "GObjectId": 1027,
+  "HelpId": "",
+  "VisualElementName": "ISA_Transformer",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190467287232,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

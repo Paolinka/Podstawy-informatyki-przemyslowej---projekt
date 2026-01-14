@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 12,
+  "VisualElementID": 927,
+  "GObjectId": 927,
+  "HelpId": "",
+  "VisualElementName": "CompressorTypeD",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190377745386,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 17,
+  "VisualElementID": 1019,
+  "GObjectId": 1019,
+  "HelpId": "",
+  "VisualElementName": "ISA_SensorTarget",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190458174702,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

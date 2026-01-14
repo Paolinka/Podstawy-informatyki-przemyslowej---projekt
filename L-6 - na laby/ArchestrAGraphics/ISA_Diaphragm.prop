@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 11,
+  "VisualElementID": 1084,
+  "GObjectId": 1084,
+  "HelpId": "",
+  "VisualElementName": "ISA_Diaphragm",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190537912266,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

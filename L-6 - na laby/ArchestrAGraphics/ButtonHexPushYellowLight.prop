@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 18,
+  "VisualElementID": 874,
+  "GObjectId": 874,
+  "HelpId": "",
+  "VisualElementName": "ButtonHexPushYellowLight",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190320929950,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

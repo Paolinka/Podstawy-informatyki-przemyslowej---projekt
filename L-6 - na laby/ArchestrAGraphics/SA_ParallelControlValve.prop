@@ -1,0 +1,27 @@
+{
+  "GraphicVersion": 31351001,
+  "VisualElementID": 1408,
+  "GObjectId": 1408,
+  "HelpId": "",
+  "VisualElementName": "SA_ParallelControlValve",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190876802685,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

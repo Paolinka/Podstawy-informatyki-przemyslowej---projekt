@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 31351000,
+  "VisualElementID": 1406,
+  "GObjectId": 1406,
+  "HelpId": "",
+  "VisualElementName": "SA_AmpsMeter",
+  "IsProtected": true,
+  "ContextObject": "",
+  "TimeStamp": 134067190874731250,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

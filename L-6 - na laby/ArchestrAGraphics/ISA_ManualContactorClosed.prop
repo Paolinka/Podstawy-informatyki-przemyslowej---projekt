@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 18,
+  "VisualElementID": 972,
+  "GObjectId": 972,
+  "HelpId": "",
+  "VisualElementName": "ISA_ManualContactorClosed",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190420011428,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

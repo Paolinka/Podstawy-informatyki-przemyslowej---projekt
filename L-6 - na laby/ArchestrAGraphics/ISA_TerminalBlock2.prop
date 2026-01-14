@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 6,
+  "VisualElementID": 1102,
+  "GObjectId": 1102,
+  "HelpId": "",
+  "VisualElementName": "ISA_TerminalBlock2",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190559208046,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 20,
+  "VisualElementID": 819,
+  "GObjectId": 819,
+  "HelpId": "",
+  "VisualElementName": "AnalogMeterFuelGaugeBlack",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190274432651,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}

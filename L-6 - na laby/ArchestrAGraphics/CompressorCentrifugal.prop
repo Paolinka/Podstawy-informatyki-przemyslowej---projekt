@@ -1,0 +1,22 @@
+{
+  "GraphicVersion": 14,
+  "VisualElementID": 926,
+  "GObjectId": 926,
+  "HelpId": "",
+  "VisualElementName": "CompressorCentrifugal",
+  "IsProtected": false,
+  "ContextObject": "",
+  "TimeStamp": 134067190376630472,
+  "VisualElementType": "Symbol",
+  "Errors": null,
+  "Warnings": null,
+  "AttributeReferences": null,
+  "RuntimeDependencies": null,
+  "ClientControlDependencies": null,
+  "Description": "",
+  "VisualElementReferencesStatus": [],
+  "GraphicChangeType": 1,
+  "ContentType": "",
+  "InternalName": null,
+  "ExternalName": null
+}
