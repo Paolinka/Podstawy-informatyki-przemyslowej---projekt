@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
+#----------------------------------- CZĘŚĆ (i) -----------------------------------------------------------
 df = pd.read_excel('L-4/przebieg_norm.xlsx')
 
 # ZADANIE 1
@@ -131,3 +132,97 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+
+#----------------------------------- CZĘŚĆ (ii) -----------------------------------------------------------
+# ZADANIE 1
+
+def count_differences(y, h_list, predictions):
+    """
+    Oblicza różnice między rzeczywistym przebiegiem a predykcjami dla każdego h.
+    """
+    differences = {}
+    for h in h_list:
+        y_hat_h = predictions[h]
+        diffs = []
+        for i in range(len(y)):
+            diff = y[i] - y_hat_h[i]
+            diffs.append(diff)
+        differences[h] = diffs
+    return differences
+
+
+
+def combo_plot_differences(t, h_list, differences):
+    """
+    Tworzy wykresy różnic między rzeczywistym przebiegiem a predykcjami dla każdego h.
+    """
+    plt.figure(figsize=(12, 6))
+    for h in h_list:
+        plt.plot(
+            t,
+            differences[h],
+            label=f"Różnica dla h={h}"
+        )
+    plt.xlabel("n (próbka)")
+    plt.ylabel("Różnica y - ŷ")
+    plt.title("Różnice między rzeczywistym przebiegiem a predykcjami")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+def separate_plots_differences(t, h_list, count_differences):
+    """
+    Tworzy osobne wykresy różnic między rzeczywistym przebiegiem a predykcjami dla każdego h.
+    """
+    plt.figure(figsize=(12, 6))
+    for i, h in enumerate(h_list):
+        plt.subplot(math.ceil(len(h_list)/2), 2, i + 1)
+        plt.plot(
+            t,
+            count_differences[h],
+            label=f"Różnica dla h={h}"
+        )
+        plt.xlabel("n (próbka)")
+        plt.ylabel("Różnica y - ŷ")
+        plt.title(f"Różnice dla h={h}")
+        plt.legend()
+        plt.grid(True)
+        plt.tight_layout()
+        plt.suptitle("Różnice między rzeczywistym przebiegiem a predykcjami")
+    plt.show()
+
+
+differences = count_differences(y, h_list, predictions)
+# Wykres zbiorczy różnic
+combo_plot_differences(t, h_list, differences)
+# Wykresy osobne różnic
+separate_plots_differences(t, h_list, differences)
+
+# ZADANIE 2
+df = pd.read_excel('L-4/przebieg_zab.xlsx')
+y_zab = df["y (T)"].values.astype(float)
+u_zab = df["u (Pg)"].values.astype(float)
+z_zab = df["z (Tz)"].values.astype(float)
+
+# Predykcje dla zaburzonego przebiegu
+predictions_zab = {}
+for h in h_list:
+    predictions_zab[h] = predict_with_horizon(
+        y=y_zab,
+        u=u_zab,
+        z=z_zab,
+        c=c_hat,
+        d=d_hat,
+        h=h,
+        dt=dt
+    )
+
+# różnice dla zaburzonego przebiegu
+differences_zab = count_differences(y_zab, h_list, predictions_zab)
+t_zab = np.arange(len(y_zab))
+
+# Wykres zbiorczy różnic dla zaburzonego przebiegu
+combo_plot_differences(t_zab, h_list, differences_zab)
+
