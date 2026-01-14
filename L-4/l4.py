@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import math
 
 #----------------------------------- CZĘŚĆ (i) -----------------------------------------------------------
-df = pd.read_excel('L-4/przebieg_norm.xlsx')
 
 # ZADANIE 1
 def simulate_model(y0, u, z, c, d, dt=1.0):
@@ -23,13 +22,85 @@ def simulate_model(y0, u, z, c, d, dt=1.0):
     return y_hat
 
 
+def predict_with_horizon(y, u, z, c, d, h, dt=1.0):
+    """
+    Predykcja h-krokowa:
+    y_hat[n] liczona wyłącznie z danych archiwalnych
+    """
+    N = len(y)
+    y_hat = np.full(N, np.nan)
+
+    for n in range(h, N):
+        y_tmp = y[n - h]
+
+        for k in range(h):
+            idx = n - h + k
+            y_tmp = y_tmp + (dt / c) * (u[idx] + d * z[idx] - d * y_tmp)
+
+        y_hat[n] = y_tmp
+
+    return y_hat
+
+
+def separate_prediction_plots(t, h_list, y, predictions):
+    """
+    Tworzy osobne wykresy rzeczywistego przebiegu i predykcji dla każdego h.
+    """
+    plt.figure(figsize=(12, 6))
+
+    for i, h in enumerate(h_list):
+        plt.subplot(math.ceil(len(h_list)/2), 2, i + 1)
+        plt.plot(
+            t,
+            predictions[h],
+            linestyle="--",
+            label=f"ŷ – predykcja, h={h}"
+        )
+        plt.plot(t, y, label="y – pomiar", linewidth=2)
+
+        plt.xlabel("n (próbka)")
+        plt.ylabel("Temperatura")
+        plt.legend()
+        plt.grid(True)
+        plt.tight_layout()
+
+        plt.suptitle("Przebieg rzeczywisty i predykcje modelu")
+    plt.show()
+
+
+def combo_prediction_plot(t, h_list, y, predictions):
+    """
+    Tworzy wspólny wykres rzeczywistego przebiegu i predykcji dla każdego h.
+    """
+    plt.figure(figsize=(12, 6))
+
+    for h in h_list:
+        plt.plot(
+            t,
+            predictions[h],
+            linestyle="--",
+            label=f"ŷ – predykcja, h={h}"
+        )
+
+    plt.plot(t, y, label="y – pomiar", linewidth=2)
+    plt.xlabel("n (próbka)")
+    plt.ylabel("Temperatura")
+    plt.title("Przebieg rzeczywisty i predykcje modelu")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+
+# Wczytanie danych
+df = pd.read_excel('L-4/przebieg_norm.xlsx')
+
 # ZADANIE 2
 y = df["y (T)"].values.astype(float)
 u = df["u (Pg)"].values.astype(float)
 z = df["z (Tz)"].values.astype(float)
 
-dt = 1.0
-
+dt = 1
 
 # wektor wyjścia
 Y = y[1:] - y[:-1]
@@ -53,26 +124,6 @@ print(f"d_hat = {d_hat:.3f}")
 
 
 # ZADANIE 3
-def predict_with_horizon(y, u, z, c, d, h, dt=1.0):
-    """
-    Predykcja h-krokowa:
-    y_hat[n] liczona wyłącznie z danych archiwalnych
-    """
-    N = len(y)
-    y_hat = np.full(N, np.nan)
-
-    for n in range(h, N):
-        y_tmp = y[n - h]
-
-        for k in range(h):
-            idx = n - h + k
-            y_tmp = y_tmp + (dt / c) * (u[idx] + d * z[idx] - d * y_tmp)
-
-        y_hat[n] = y_tmp
-
-    return y_hat
-
-
 h_list = [1, 5, 10, 20]
 predictions = {}
 
@@ -91,51 +142,12 @@ for h in h_list:
 # Wspólny wektor czasu
 t = np.arange(len(y))
 
-# Wykresy osobne dla każdego h
-plt.figure(figsize=(12, 6))
-
-for i, h in enumerate(h_list):
-    plt.subplot(math.ceil(len(h_list)/2), 2, i + 1)
-    plt.plot(
-        t,
-        predictions[h],
-        linestyle="--",
-        label=f"ŷ – predykcja, h={h}"
-    )
-    plt.plot(t, y, label="y – pomiar", linewidth=2)
-
-    plt.xlabel("n (próbka)")
-    plt.ylabel("Temperatura")
-    plt.legend()
-    plt.grid(True)
-    plt.tight_layout()
-
-    plt.suptitle("Przebieg rzeczywisty i predykcje modelu")
-plt.show()
-
-# Wykres zbiorczy
-plt.figure(figsize=(12, 6))
-
-for h in h_list:
-    plt.plot(
-        t,
-        predictions[h],
-        linestyle="--",
-        label=f"ŷ – predykcja, h={h}"
-    )
-
-plt.plot(t, y, label="y – pomiar", linewidth=2)
-plt.xlabel("n (próbka)")
-plt.ylabel("Temperatura")
-plt.title("Przebieg rzeczywisty i predykcje modelu")
-plt.legend()
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-
+# Wykres zbiorczy predykcji
+combo_prediction_plot(t, h_list, y, predictions)
+# Wykresy osobne predykcji
+separate_prediction_plots(t, h_list, y, predictions)
 
 #----------------------------------- CZĘŚĆ (ii) -----------------------------------------------------------
-# ZADANIE 1
 
 def count_differences(y, h_list, predictions):
     """
@@ -150,7 +162,6 @@ def count_differences(y, h_list, predictions):
             diffs.append(diff)
         differences[h] = diffs
     return differences
-
 
 
 def combo_plot_differences(t, h_list, differences):
@@ -171,6 +182,7 @@ def combo_plot_differences(t, h_list, differences):
     plt.grid(True)
     plt.tight_layout()
     plt.show()
+
 
 def separate_plots_differences(t, h_list, count_differences):
     """
@@ -194,6 +206,7 @@ def separate_plots_differences(t, h_list, count_differences):
     plt.show()
 
 
+# ZADANIE 1
 differences = count_differences(y, h_list, predictions)
 # Wykres zbiorczy różnic
 combo_plot_differences(t, h_list, differences)
@@ -202,6 +215,8 @@ separate_plots_differences(t, h_list, differences)
 
 # ZADANIE 2
 df = pd.read_excel('L-4/przebieg_zab.xlsx')
+
+# Dane zaburzonego przebiegu
 y_zab = df["y (T)"].values.astype(float)
 u_zab = df["u (Pg)"].values.astype(float)
 z_zab = df["z (Tz)"].values.astype(float)
