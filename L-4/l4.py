@@ -41,7 +41,7 @@ print(f"d_hat = {d_hat:.3f}")
 
 
 # ZADANIE 3
-h_list = [1, 5, 10, 20]
+h_list = [1, 5, 10, 50]
 predictions = {}
 
 for h in h_list:
